@@ -214,7 +214,7 @@ def main() -> None:
     print("Token saved to .env")
 
     name = verify_token(token)
-    print(f"[OK] Logged in as {name}")
+    sys.stdout.buffer.write(f"✅ Logged in as {name}\n".encode("utf-8"))
 
 
 if __name__ == "__main__":
