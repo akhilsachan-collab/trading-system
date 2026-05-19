@@ -1,0 +1,28 @@
+{
+  "indices": [
+    {"key": "NSE_INDEX|Nifty 50",          "label": "Nifty 50"},
+    {"key": "NSE_INDEX|Nifty Bank",         "label": "Nifty Bank"},
+    {"key": "NSE_INDEX|Nifty Fin Service",  "label": "Nifty FinService"},
+    {"key": "NSE_INDEX|India VIX",          "label": "India VIX"},
+    {"key": "NSE_INDEX|Nifty IT",           "label": "Nifty IT"},
+    {"key": "NSE_INDEX|Nifty Auto",         "label": "Nifty Auto"}
+  ],
+  "stocks": [
+    {"key": "NSE_EQ|INE002A01018", "label": "Reliance"},
+    {"key": "NSE_EQ|INE040A01034", "label": "HDFC Bank"},
+    {"key": "NSE_EQ|INE090A01021", "label": "ICICI Bank"},
+    {"key": "NSE_EQ|INE062A01020", "label": "SBI"},
+    {"key": "NSE_EQ|INE467B01029", "label": "TCS"},
+    {"key": "NSE_EQ|INE009A01021", "label": "Infosys"},
+    {"key": "NSE_EQ|INE397D01024", "label": "Bharti Airtel"},
+    {"key": "NSE_EQ|INE018A01030", "label": "L&T"},
+    {"key": "NSE_EQ|INE154A01025", "label": "ITC"},
+    {"key": "NSE_EQ|INE585B01010", "label": "Maruti Suzuki"}
+  ],
+  "commodities": [
+    {"key": "MCX_FO|459277", "label": "Gold (Jun 2026)"},
+    {"key": "MCX_FO|464150", "label": "Silver (Jul 2026)"},
+    {"key": "MCX_FO|499095", "label": "Crude Oil (Jun 2026)"},
+    {"key": "MCX_FO|488505", "label": "Natural Gas (May 2026)"}
+  ]
+}
