@@ -576,7 +576,7 @@ class RiskEngine:
             self._conn.commit()
             return MonthlyState(month_start, 0.0, False)
         return MonthlyState(
-            week_start=month_start,
+            month_start=month_start,
             pnl_realized=row["pnl_realized"],
             monthly_stop_hit=bool(row["monthly_stop_hit"]),
         )
